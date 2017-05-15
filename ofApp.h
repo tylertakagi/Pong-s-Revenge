@@ -20,8 +20,16 @@ class ofApp : public ofBaseApp{
         void drawGameScreen();
         void drawGameOverScreen();
     
+        ofImage gameOver;
         ofImage logo;
-        ofTrueTypeFont myFont;
+        ofTrueTypeFont  myFont;
+        ofTrueTypeFont  myArcade;
+        ofSoundPlayer   myTheme;
+        ofSoundPlayer   myBullet;
+        ofSoundPlayer   myPaddle;
+        ofSoundPlayer   mycPaddle;
+        ofSoundPlayer   noAmmo;
+    
 
 		void keyPressed(int key);
 		void keyReleased(int key);

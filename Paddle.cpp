@@ -35,6 +35,7 @@ void Paddle::MoveDown() {
     v -= 1;
 }
 
+
 void Paddle::track(Ball *b) {
     if (b->y >= y + h) {
         MoveUp();
